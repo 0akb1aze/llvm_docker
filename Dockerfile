@@ -10,10 +10,10 @@ WORKDIR /opt/
 
 RUN git clone https://github.com/llvm/llvm-project.git
 
-WORKDIR /opt/llvm_project
+WORKDIR /opt/llvm-project
 
 RUN cmake -S llvm -B build
 
-WORKDIR /opt/llvm_project/build
+WORKDIR /opt/llvm-project/build
 
 RUN make & make install
