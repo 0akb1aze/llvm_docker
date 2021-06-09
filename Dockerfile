@@ -12,6 +12,3 @@ RUN git clone https://github.com/llvm/llvm-project.git
 
 WORKDIR /opt/llvm-project
 
-RUN cmake -S llvm -B build
-
-WORKDIR /opt/llvm-project/build
