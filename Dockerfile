@@ -15,5 +15,3 @@ WORKDIR /opt/llvm-project
 RUN cmake -S llvm -B build
 
 WORKDIR /opt/llvm-project/build
-
-RUN make & make install
